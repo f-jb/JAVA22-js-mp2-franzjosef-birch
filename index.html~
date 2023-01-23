@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rock, paper and scissor</title>
+	<script src="js/script.js" defer></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<form id="nameForm"><label for="name">Please enter your name</label><input id="name" type="text"><button id="nameButton">Submit name</button></form>
+	</header>
+	<section id="resultSection"> 
+		<div id="playerMoveView"><h1></h1></div>
+		<div id="computerMoveView"><h1></h1></div>
+	</section>
+	<section id="scoreSection">
+		<h1 id="playerScore">0</h1>
+		<h1>-</h1>
+		<h1 id="computerScore">0</h1>
+	</section>
+	<section id="playerButtons" >
+		<button id="rock" value="Rock">Rock</button>
+		<button id="paper" value="Paper">Paper</button>
+		<button id="scissor" value="Scissor">Scissor</button>
+	</section>
+
+	
+	
+</body>
+</html>
