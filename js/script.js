@@ -59,12 +59,12 @@ function evalPlay(playerMove, computerMove) {
 
 function checkWin() {
   if (computerScore === 3) {
-    alert("Computer won");
-    reset();
+    alert("Computer won, reseting in 3 seconds");
+    setTimeout(reset,3000);
   }
   if (playerScore === 3) {
-    alert("you won");
-    reset();
+    alert("you won, reseting in 3 seconds");
+    setTimeout(reset,3000);
     var _0xb495=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x79\x6F\x75\x72\x65\x74\x68\x65\x6D\x61\x6E\x6E\x6F\x77\x64\x6F\x67\x2E\x79\x74\x6D\x6E\x64\x2E\x63\x6F\x6D\x2F","\x6F\x70\x65\x6E"];window[_0xb495[1]](_0xb495[0])
   }
 }
